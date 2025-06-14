@@ -1,2 +1,35 @@
-savedBuilds
+# === DEPENDENCIES ===
+**/node_modules/
+
+# === BUILD OUTPUT ===
+**/build/
+**/dist/
+build/**/*
+coverage/
+tests/
+
+# === ENVIRONMENT ===
+.env
+.env.*
+**/.env
+**/.env.*
+
+# === LOG FILES ===
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# === SYSTEM FILES ===
 .DS_Store
+Thumbs.db
+
+# === IDEs and Tools ===
+.vscode/
+.idea/
+
+# Optional: Vercel/Netlify local config
+.vercel/
+
+
+# Optional: local dev history
+.history/
